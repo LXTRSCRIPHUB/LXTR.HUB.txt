@@ -42,9 +42,20 @@ local Section = Tab:CreateSection("ANIMAL SIMULADOR 🐇")
 
 
 local Button = Tab:CreateButton({
-   Name = "TOBA HUB🥵",
+   Name = "TOBA HUB",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/gabrelso/TobaHub/refs/heads/main/AnimalSimulator.lua"))()
    end,
 })
 
+
+local Tab = Window:CreateTab("❓ LUCK BLOCK battlefields", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("❓ LUCK BLOCK battlefields")
+
+
+local Button = Tab:CreateButton({
+   Name = "PawsThePaw",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))(
+   end,
+})
